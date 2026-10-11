@@ -9,7 +9,6 @@
 		(date "2026-09-30")
 		(rev "A")
 		(company "VTOL Drone Delivery")
-		(comment 1 "Own 5 V input from power bank port 2 (Pi 4 on port 1). 3.3 V LDO for SEN66 + I2C, 5 V aux, fan driver, Cube TELEM2 pass-through")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -6120,17 +6119,6 @@
 				)
 			)
 		)
-		(property "MPN" "Stackpole CSR1206FK20L0"
-			(at 106.68 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" "~"
 			(at 106.68 227.33 0)
 			(hide yes)
@@ -6144,6 +6132,17 @@
 		)
 		(property "Description" ""
 			(at 106.68 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Stackpole CSR1206FK20L0"
+			(at 106.68 227.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7313,17 +7312,6 @@
 				)
 			)
 		)
-		(property "MPN" "KEMET C0603C104K3RACTU"
-			(at 129.54 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" "~"
 			(at 129.54 165.1 0)
 			(hide yes)
@@ -7337,6 +7325,17 @@
 		)
 		(property "Description" ""
 			(at 129.54 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KEMET C0603C104K3RACTU"
+			(at 129.54 165.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
