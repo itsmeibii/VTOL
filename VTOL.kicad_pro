@@ -551,7 +551,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -566,23 +566,15 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "Power",
         "pattern": "+5V"
       },
       {
         "netclass": "Power",
-        "pattern": "/VBAT_IN"
+        "pattern": "/VBUS_IN"
       },
       {
         "netclass": "Power",
-        "pattern": "/VBAT_F"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(D2-K)"
+        "pattern": "+3.3V"
       }
     ]
   },
@@ -606,7 +598,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "power-board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -686,6 +678,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part #",
+          "name": "Digikey Part #",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -744,7 +742,7 @@
         "uuid": "4a917efc-f90e-4406-8ee6-729c56f47499"
       }
     ],
-    "used_designators": "SW3,D2,L1,#PWR3-7,#PWR10,#PWR17,#PWR27,#PWR30,#PWR33-34,R1-6,#FLG4-5,C1-10,U3",
+    "used_designators": "SW3,#PWR3-7,#PWR10,#PWR17,#PWR27,#PWR30,#PWR33-34,L1,D2,#FLG4-5,R1-6,C1-10,U3",
     "variants": []
   },
   "sheets": [
